@@ -32,13 +32,13 @@ Uma API para o sistema de gastos pessoais.
 |descricao  |texto  |não| um texto sobre a despesa
 
 *Exemplo de requisição*
-```json
+```
 {
-    valor: 100.59
-    data: '2023-12-27'
-    contaId: 1,
-    cadegoriaId: 1,
-    descricao: 'cinema com os amigos'
+    "valor": 100.59
+    "data": "2023-12-27"
+    "contaId": 1,
+    "cadegoriaId": 1,
+    "descricao": "cinema com os amigos"
 }
 ```
 
@@ -54,13 +54,13 @@ Uma API para o sistema de gastos pessoais.
 `GET` /naofalindo/api/despeda/{id}
 
 *Exemplo de resposta*
-```json
+```
 {
-    valor: 100.59
-    data: '2023-12-27'
-    contaId: 1,
-    cadegoriaId: 1,
-    descricao: 'cinema com os amigos'
+    "valor": 100.59
+    "data": "2023-12-27"
+    "contaId": 1,
+    "cadegoriaId": 1,
+    "descricao": "cinema com os amigos"
 }
 ```
 
